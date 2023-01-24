@@ -9,7 +9,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: '',
+                test: /\.js$/,
                 include: [
                     path.resolve(__dirname, 'src/js')
                 ],
